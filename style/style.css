@@ -14,7 +14,88 @@
     padding: 0 15px;
 }
 
-.sardor {}
+.sardor {
+    background-color: #f8f0f4;
+}
+.nav_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.nav_link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-decoration: none;
+    color: #6c6162;
+}
+.nav_btn {
+    list-style: none;
+    text-decoration: none;
+    color: #FAFAFA;
+    background-color: #D23166;
+    padding: 14px 50px;
+    border-radius: 5px;
+}
+.intro_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro_left {
+    max-width: 665px;
+    width: 100%;
+    margin: 196px 0 213px 254px;
+}
+.intro_top_text {
+    color: #0b0101;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+}
+.intro_feel {
+    font-family: Fredoka One;
+    font-size: 57.33px;
+    font-weight: 400;
+    line-height: 69.08px;
+}
+.intro_feel span {
+    color: #8f579a;
+    font-family: Fredoka One;
+    font-size: 57.33px;
+    font-weight: 400;
+    line-height: 69.08px;
+}
+.intro_bottom_text {
+    max-width: 523px;
+    width: 100%;
+    color: #6c6162;
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.intro_img {
+    background-color: unset;
+}
+.intro_btn {
+    margin-top: 35px;
+    color: #FAFAFA;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    border-radius: 5px;
+    background-color: #D64374;
+    padding: 15px 42px;
+}
 
 .umar {}
 
